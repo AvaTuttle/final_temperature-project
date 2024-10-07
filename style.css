@@ -1,0 +1,56 @@
+body {
+    background-image: url(img/default-bg.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-image: url(img/banner.jpg);
+    padding: 20px;
+    color: rgb(83, 136, 204);
+}
+
+main {
+    margin-top: 20px;
+}
+h3{
+    font-weight: bolder;
+}
+p{
+    display: inline-block;
+    padding: 5px;
+    background-color: #333;
+    font-weight: bold;
+    color: wheat;
+}
+
+/* Thermometer Styling */
+.thermometer-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.thermometer {
+    width: 50px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 25px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.thermometer-fill {
+    width: 100%;
+    height: 0;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    transition: height 0.5s ease, background-color 0.5s ease;
+}
