@@ -3,7 +3,7 @@ function updateThermometer(fahrenheit) {
     let heightPercentage;
 
     // Map Fahrenheit to a height percentage (e.g., -20°F to 120°F)
-    if (fahrenheit <= -20) {
+    if (fahrenheit <= 20) {
         heightPercentage = 0;  // Too cold, set it to 0%
     } else if (fahrenheit >= 120) {
         heightPercentage = 100; // Too hot, set it to 100%
